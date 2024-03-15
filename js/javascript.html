@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <h2>Linguagem de programação</h2>
+
+    <h3 class="subtitulo">Interatividade</h3>
+    <h3 class="subtitulo">Linguagem de scripting</h3>
+    <h3 class="subtitulo">Grande tolerância a erros</h3>
+
+    <button type="button" onclick="mostraAlerta()">Enviar</button>
+
+    <input type="range" oninput="mostraTamanho()">
+
+    <script src="hello.js" type="text/javascript"></script>
+
+    <script>
+        alert('Olá, Mundo!');
+
+        var mensagem = "Eaê Mundão!";
+        console.log(mensagem);
+
+        var titulo = document.querySelector("h1");
+        titulo.textContent = "Alterando título 'JAVASCRIPT' com DOM";
+
+        var subtitulo = document.querySelectorAll(".subtitulo")[0];
+        subtitulo.textContent = "Subtítulos também alterados";
+
+        function mostraAlerta(){
+            alert("Funciona!");
+        }
+
+        function mostraTamanho(){
+            alert("Tamanho modificado!")
+        }
+
+        // exemplo de função anônima
+        const f = function(v1, v2){
+            return v1 + v2;
+        }
+
+        console.log(f(10,5));
+
+        var empresa = "Caelum";
+        console.log("Palavra: " + empresa);
+        console.log("Tamanho da palavra: " + empresa.length);
+        console.log("Troca de palavra: " + empresa.replace("lum", "tano"));
+
+        console.log("Não mudou: " + empresa);
+        empresa = empresa.replace("lum", "tano");
+        console.log("Mudou: " + empresa);
+
+        var textoInteiro = "10";
+        console.log( textoInteiro);
+        var inteiro = parseInt(textoInteiro);
+        console.log(inteiro);
+
+        var textoFloat = "10.22";
+        console.log(textoFloat);
+        var float = parseFloat(textoFloat);
+        console.log(float);
+
+        var milNumber = 1000;
+        var milString = milNumber.toFixed(2);
+        console.log(milString);
+        
+        var s1 = "Caelum";
+        var s2 = "Inovação";
+        console.log(s1 + s2);
+
+        var num1 = 2;
+        var num2 = 3;
+        var nome = "Caelum";
+
+        console.log(num1 + nome + num2);
+        console.log(num1 + num2 + nome);
+        console.log(nome + num1 + num2);
+        console.log(nome + (num1 + num2));
+        console.log(nome + num1 * num2);
+
+        console.log(10 - "curso");
+
+        var resultado = 10 - "curso";
+        r1 = resultado == NaN;
+        console.log(r1);
+        r2 = NaN == NaN;
+        console.log(r2);
+
+        r3 = isNaN(resultado);
+        console.log(r3);
+    </script>
+</body>
+</html>
