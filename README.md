@@ -1,7 +1,7 @@
 # Musicdot
 Material do projeto de site da **Musicdot**, feito no curso de HTML, CSS e JS gratuito da Alura.
 
-Clique [aqui](https://www.caelum.com.br/apostila/apostila-html-css-javascript.pdf?fbclid=IwAR32oGKAOhdzllyoUHgJUPhBdeJjVgSdWYZmJjelDs8JH3t4MvepSvJhbJ4) para acessar o curso deles, recomendo ainda mais para quem está começando na área, este curso é uma ótima oportunidade de aprender conceitos básicos de front-end pois reforça os conteúdos com bastante prática ao elaborar o projeto do site.
+Clique [aqui](https://www.alura.com.br/apostila-html-css-javascript/01EX-arquivos-iniciais?srsltid=AfmBOoqygJZNws56fr1M8zZ41L3YyOEVvvFAXoQyU0LXhrRxZvcMdSAK) para acessar o curso deles, recomendo ainda mais para quem está começando na área, este curso é uma ótima oportunidade de aprender conceitos básicos de front-end pois reforça os conteúdos com bastante prática ao elaborar o projeto do site.
 
 ## 🛠️ Tecnologias Utilizadas
 
