@@ -17,7 +17,7 @@ Clique [aqui](https://www.alura.com.br/apostila-html-css-javascript/01EX-arquivo
 
 2. Acesse a pasta do projeto:
    ```bash
-   cd projeto
+   cd nome-projeto
 
 ## 🚀 Como usar
    Rode o arquivo **index.html** em qualquer navegador para ver a execução do projeto.
